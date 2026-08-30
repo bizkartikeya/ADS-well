@@ -1,0 +1,45 @@
+# Build output
+bin/
+obj/
+**/bin/
+**/obj/
+
+# Visual Studio / Rider / VS Code
+.vs/
+.idea/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.vcxproj.user
+*.csproj.user
+*.rsuser
+*.sln.iml
+.vscode/
+
+# .NET / NuGet
+packages/
+*.nupkg
+*.snupkg
+project.lock.json
+artifacts/
+
+# Test results
+TestResults/
+*.trx
+coverage/
+coverage.*
+*.coverage
+*.coveragexml
+
+# Local app settings and secrets
+appsettings.Development.json
+appsettings.Local.json
+secrets.json
+*.Secrets.json
+.dotnet/
+
+# OS metadata
+Thumbs.db
+Desktop.ini
+.DS_Store

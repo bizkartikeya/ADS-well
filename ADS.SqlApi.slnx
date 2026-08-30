@@ -1,0 +1,15 @@
+<Solution>
+  <Folder Name="/src/">
+    <!-- <Project Path="src/ADS.Base/ADS.Base.csproj" /> -->
+    <!-- <Project Path="src/ADS.Config/ADS.Config.csproj" Id="a4a95605-20d1-4f1e-a0de-9e99bac99c48" /> -->
+    <!-- <Project Path="src/ADS.Data/ADS.Data.csproj" /> -->
+    <Project Path="src/AdsSqlApi.Api/AdsSqlApi.Api.csproj" />
+    <Project Path="src/AdsSqlApi.Application/AdsSqlApi.Application.csproj" />
+    <Project Path="src/AdsSqlApi.Domain/AdsSqlApi.Domain.csproj" />
+    <Project Path="src/AdsSqlApi.Infrastructure/AdsSqlApi.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+  <add key="local-packages" value="C:\Users\rohit.virkar\.nuget\packages" />
+    <Project Path="tests/AdsSqlApi.Tests/AdsSqlApi.Tests.csproj" />
+  </Folder>
+</Solution>
